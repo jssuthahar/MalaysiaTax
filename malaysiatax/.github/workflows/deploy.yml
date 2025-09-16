@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
-      - name: Checkout repository
+      # 1️⃣ Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       # 2️⃣ Install Flutter
@@ -43,5 +43,5 @@ jobs:
           publish_branch: gh-pages
           user_name: "github-actions"
           user_email: "github-actions@github.com"
-          keep_files: false   # remove old files for clean deploy
+          keep_files: false    # remove old files for clean deploy
           commit_message: "Deploy Flutter Web via GitHub Actions"
