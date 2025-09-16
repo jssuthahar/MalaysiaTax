@@ -1,0 +1,47 @@
+name: Deploy Flutter Web to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ Install Flutter
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.13.0'
+
+      # 3️⃣ Get dependencies inside Flutter project
+      - name: Flutter pub get
+        run: flutter pub get
+        working-directory: malaysiatax
+
+      # 4️⃣ Build Flutter Web
+      - name: Build Flutter web
+        run: flutter build web --release
+        working-directory: malaysiatax
+
+      # 5️⃣ Add .nojekyll to avoid Jekyll processing
+      - name: Add .nojekyll
+        run: touch ./malaysiatax/build/web/.nojekyll
+
+      # 6️⃣ Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./malaysiatax/build/web
+          publish_branch: gh-pages
+          user_name: "github-actions"
+          user_email: "github-actions@github.com"
+          keep_files: false   # remove old files for clean deploy
+          commit_message: "Deploy Flutter Web via GitHub Actions"
