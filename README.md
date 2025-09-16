@@ -185,5 +185,5 @@ dependencies:
 
 ## License
 
-MIT License © \ Suthahar Jegatheesan
+MIT License ©  Suthahar Jegatheesan
 
