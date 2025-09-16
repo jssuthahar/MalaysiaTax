@@ -1,4 +1,4 @@
-# Malaysia Tax Calculator (Flutter Web) – Developer Version
+# Malaysia Tax Calculator (Flutter Web) – Developer 
 
 A **Flutter web app** for estimating Malaysia income tax for residents and foreigners, with fully dynamic tax brackets and non-resident rates loaded from a JSON file.
 
