@@ -10,25 +10,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      # Step 1: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Install Flutter
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.13.0'
 
-      - name: Get dependencies
+      # Step 3: Get dependencies inside malaysiatax folder
+      - name: Flutter pub get
         run: flutter pub get
+        working-directory: malaysiatax
 
+      # Step 4: Build Flutter Web
       - name: Build Flutter web
         run: flutter build web --release
+        working-directory: malaysiatax
 
+      # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/web
+          publish_dir: ./malaysiatax/build/web
           publish_branch: gh-pages
           user_name: "github-actions"
           user_email: "github-actions@github.com"
