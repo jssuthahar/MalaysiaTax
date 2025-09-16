@@ -1,0 +1,16 @@
+name: malaysia_tax_app
+description: Malaysia tax calculator demo
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.14
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tax_rules.json
