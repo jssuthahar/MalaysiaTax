@@ -5,6 +5,15 @@
 A **user-friendly Flutter web app** to estimate Malaysia income tax for residents and foreigners. The app allows users to input their salary, arrival date (for foreigners), and calculates monthly and yearly taxes. It also provides a preview of Malaysian tax brackets and non-resident flat tax rates.
 
 ---
+🌟 Attention Everyone! 🌟
+
+Many of our subscribers struggle to calculate tax in Malaysia, so I’ve created a comprehensive website to make it easy for anyone to calculate and understand Malaysian taxes quickly and accurately:
+https://jssuthahar.github.io/malaysiatax/
+
+If you’re planning to travel to Malaysia or know someone who is, this will save a lot of time and confusion. Please share it with your friends! 🇲🇾
+
+And a big thank you for your continued support of NikiBhavi Vlog: https://www.youtube.com/@NikiBhavi
+ 🙏
 
 ## Features
 
