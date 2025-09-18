@@ -51,9 +51,43 @@ And a big thank you for your continued support of NikiBhavi Vlog: https://www.yo
 
 ---
 
-## Screenshots
+# Malaysia Tax Calculator
 
-*(Add screenshots here of HomePage, Table Preview, and CalculatorPage with monthly breakdown)*
+A simple and easy-to-use tax calculator for Malaysia.  
+This project helps locals and foreigners calculate their **monthly and yearly tax breakdowns** with a clean and responsive interface.  
+
+---
+
+## 🔥 Features
+- Calculate Malaysian income tax instantly  
+- Supports locals and foreigners  
+- Monthly and yearly tax breakdown  
+- Easy-to-understand results  
+
+---
+
+## 📸 Screenshots
+
+![Malaysia Tax Screenshot 1](https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax1.png)
+![Malaysia Tax Screenshot 2](https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax2.png)
+![Malaysia Tax Screenshot 3](https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax3.png)
+
+---
+
+## 🚀 Live Website
+👉 [Try it here](https://jssuthahar.github.io/malaysiatax/)
+
+---
+
+## 📺 Support My Work
+Check out my YouTube channel:  
+[NikiBhavi Vlog](https://www.youtube.com/@NikiBhavi)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+
 
 ---
 
