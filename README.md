@@ -4,9 +4,6 @@
 
 A **user-friendly Flutter web app** to estimate Malaysia income tax for residents and foreigners. The app allows users to input their salary, arrival date (for foreigners), and calculates monthly and yearly taxes. It also provides a preview of Malaysian tax brackets and non-resident flat tax rates.
 
-<a href="https://buymeacoffee.com/jssuthahar" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height:50px;">
-</a>
 
 
 ---
@@ -83,6 +80,9 @@ This project helps locals and foreigners calculate their **monthly and yearly ta
 
 ## 🚀 Live Website
 👉 [Try it here](https://jssuthahar.github.io/malaysiatax/)
+<a href="https://buymeacoffee.com/jssuthahar" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height:50px;">
+</a>
 
 ---
 
