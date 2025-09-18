@@ -68,9 +68,11 @@ This project helps locals and foreigners calculate their **monthly and yearly ta
 
 ## 📸 Screenshots
 
-![Malaysia Tax Screenshot 1](https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax1.png)
-![Malaysia Tax Screenshot 2](https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax2.png)
-![Malaysia Tax Screenshot 3](https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax3.png)
+<p align="center">
+  <img src="https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax1.png" width="30%" />
+  <img src="https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax2.png" width="30%" />
+  <img src="https://github.com/jssuthahar/malaysiatax/blob/main/ScreenShort/MalaysiaTax3.png" width="30%" />
+</p>
 
 ---
 
