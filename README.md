@@ -80,13 +80,17 @@ This project helps locals and foreigners calculate their **monthly and yearly ta
 
 ## 🚀 Live Website
 👉 [Try it here](https://jssuthahar.github.io/malaysiatax/)
-<a href="https://buymeacoffee.com/jssuthahar" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height:50px;">
-</a>
+
 
 ---
 
 ## 📺 Support My Work
+
+<a href="https://buymeacoffee.com/jssuthahar" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height:50px;">
+</a>
+
+
 Check out my YouTube channel:  
 [NikiBhavi Vlog](https://www.youtube.com/@NikiBhavi)
 
